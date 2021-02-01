@@ -17,7 +17,6 @@ function App() {
             contractType="CDI"
             country="France"
             city="Paris"
-            border="blue"
           />
         </div>
         <div className="content">
@@ -26,7 +25,6 @@ function App() {
             contractType="CDD"
             country="USA"
             city="New-York"
-            border="lightblue"
           />
         </div>
         <div className="content">
@@ -35,7 +33,6 @@ function App() {
             contractType="CDI"
             country="England"
             city="London"
-            border="green"
           />
         </div>
         <div className="content">
@@ -44,7 +41,6 @@ function App() {
             contractType="CDD"
             country="France"
             city="Lyon"
-            border="pink"
           />
         </div>
         <div className="content">
@@ -53,7 +49,6 @@ function App() {
             contractType="Saisonnier"
             country="France"
             city="Bretagne"
-            border="purple"
           />
         </div>
         <div className="content">
@@ -62,7 +57,6 @@ function App() {
             contractType="CDI"
             country="France"
             city="Nancy"
-            border="brown"
           />
         </div>
         <div className="content">
@@ -71,7 +65,6 @@ function App() {
             contractType="CDD"
             country="France"
             city="Paris"
-            border="grey"
           />
         </div>
         <div className="content">
@@ -80,7 +73,6 @@ function App() {
             contractType="CDD"
             country="France"
             city="Bordeaux"
-            border="yellow"
           />
         </div>
         <div className="content">
@@ -89,7 +81,6 @@ function App() {
             contractType="Stage"
             country="France"
             city="Paris"
-            border="black"
           />
         </div>
       </div>

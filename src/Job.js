@@ -13,12 +13,7 @@ const Job = (props) => {
           <span>-</span>
         </p>
 
-        <p>
-          {props.city}
-          <span>-</span>
-        </p>
-
-        <p>{props.border}</p>
+        <p>{props.city}</p>
       </div>
     </>
   );
