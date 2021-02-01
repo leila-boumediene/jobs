@@ -21,7 +21,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-.content {
+.Jobs {
   width: 300px;
   height: 300px;
   justify-content: space-between;
@@ -36,31 +36,31 @@ h2 {
   margin-top: 30px;
 }
 
-.content > div {
+.Jobs > div {
   display: flex;
   font-size: small;
   align-items: flex-end;
   bottom: 10px;
   position: absolute;
 }
-.content > div span {
+.Jobs > div span {
   padding: 5px;
   align-items: flex-end;
 }
 
-.content:nth-child(5n + 1) {
+.Jobs:nth-child(5n + 1) {
   border: #e30413 6px solid;
 }
-.content:nth-child(5n + 2) {
+.Jobs:nth-child(5n + 2) {
   border: #3ea535 6px solid;
 }
-.content:nth-child(5n + 3) {
+.Jobs:nth-child(5n + 3) {
   border: #ffee00 6px solid;
 }
-.content:nth-child(5n + 4) {
+.Jobs:nth-child(5n + 4) {
   border: #039fe3 6px solid;
 }
-.content:nth-child(5n + 5) {
+.Jobs:nth-child(5n + 5) {
   border: #f8c5af 6px solid;
 }
 /*.Work .content:first-child {

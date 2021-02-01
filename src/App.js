@@ -11,7 +11,7 @@ function App() {
       </div>
 
       <div className="Work">
-        <div className="content">
+        <div className="Jobs">
           <Job
             title="Assistante de direction"
             contractType="CDI"
@@ -19,7 +19,7 @@ function App() {
             city="Paris"
           />
         </div>
-        <div className="content">
+        <div className="Jobs">
           <Job
             title="Writer"
             contractType="CDD"
@@ -27,7 +27,7 @@ function App() {
             city="New-York"
           />
         </div>
-        <div className="content">
+        <div className="Jobs">
           <Job
             title="Architect"
             contractType="CDI"
@@ -35,7 +35,7 @@ function App() {
             city="London"
           />
         </div>
-        <div className="content">
+        <div className="Jobs">
           <Job
             title="Secrétaire"
             contractType="CDD"
@@ -43,7 +43,7 @@ function App() {
             city="Lyon"
           />
         </div>
-        <div className="content">
+        <div className="Jobs">
           <Job
             title="Skipper"
             contractType="Saisonnier"
@@ -51,7 +51,7 @@ function App() {
             city="Bretagne"
           />
         </div>
-        <div className="content">
+        <div className="Jobs">
           <Job
             title="Chef de projet immobilier"
             contractType="CDI"
@@ -59,7 +59,7 @@ function App() {
             city="Nancy"
           />
         </div>
-        <div className="content">
+        <div className="Jobs">
           <Job
             title="Technicen informatique"
             contractType="CDD"
@@ -67,7 +67,7 @@ function App() {
             city="Paris"
           />
         </div>
-        <div className="content">
+        <div className="Jobs">
           <Job
             title="Mécanicien"
             contractType="CDD"
@@ -75,7 +75,7 @@ function App() {
             city="Bordeaux"
           />
         </div>
-        <div className="content">
+        <div className="Jobs">
           <Job
             title="Developpeur"
             contractType="Stage"
