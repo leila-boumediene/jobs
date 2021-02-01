@@ -1,51 +1,69 @@
-body {
-  width: 1024px;
-}
-
-h2 {
-  font-size: 30px;
-  margin-top: 30px;
-}
 .Header {
   background-color: black;
   color: white;
   height: 60px;
   width: 100%;
   margin-bottom: 30px;
-  text-align: center;
+  align-items: center;
+  display: flex;
   justify-content: center;
-  font-size: 20px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .Work {
-  width: 100%;
+  width: 1200px;
   display: flex;
   margin-left: 10px;
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .content {
-  width: 30%;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   justify-content: space-between;
-  margin-right: 20px;
-  margin-top: 20px;
-  text-align: center;
+  margin: 20px;
   justify-content: center;
+  padding: 10px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 30px;
+  margin-top: 30px;
 }
 
 .content > div {
   display: flex;
   font-size: small;
   align-items: flex-end;
-  margin-top: 90px;
+  bottom: 10px;
+  position: absolute;
 }
 .content > div span {
   padding: 5px;
   align-items: flex-end;
 }
-.Work .content:first-child {
+
+.content:nth-child(5n + 1) {
+  border: #e30413 6px solid;
+}
+.content:nth-child(5n + 2) {
+  border: #3ea535 6px solid;
+}
+.content:nth-child(5n + 3) {
+  border: #ffee00 6px solid;
+}
+.content:nth-child(5n + 4) {
+  border: #039fe3 6px solid;
+}
+.content:nth-child(5n + 5) {
+  border: #f8c5af 6px solid;
+}
+/*.Work .content:first-child {
   border: blue solid 5px;
 }
 
@@ -72,13 +90,14 @@ h2 {
 }
 .Work .content:last-child {
   border: black 5px solid;
-}
+}*/
 
 .footer {
   background-color: lightgrey;
   text-align: center;
   height: 30px;
   margin-top: 100px;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
